@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recalls</title>
+    <title>Product</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -138,53 +138,351 @@
 
     <div class="wrapper">
         <main class="main">
-            <div class="main__breadcrumbs breadcrumbs">
+            <!--  -->
+            <section class="main__products products">
                 <div class="container">
-                    <ul class="breadcrumbs__list">
-                        <li class="breadcrumbs__list-item">
-                            <a class="breadcrumbs__list-link" href="#">
-                                Главная
-                            </a>
-                        </li>
-                        <li class="breadcrumbs__list-item">
-                            <p class="breadcrumbs__list-text" href="#">
-                                Отзывы
-                            </p>
-                        </li>
-                    </ul>
+                    <div class="products__heading heading">
+                        <h2 class="heading__title">
+                            Категории товаров
+                        </h2>
+                    </div>
                 </div>
-            </div>
-            <section class="main__recalls recalls">
+                <div class="products__inner">
+                    <div class="products__swiper products-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="products-swiper__slide products-slide swiper-slide">
+                                <a class="products-slide__card card card--small" href="#">
+                                    <div class="card__img">
+                                        <img class="card__img-image" src="images/products-img-1.jpg" alt="img">
+                                    </div>
+                                    <p class="card__text">
+                                        Готовые решения
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="products-swiper__slide products-slide swiper-slide">
+                                <a class="products-slide__card card card--small" href="#">
+                                    <div class="card__img">
+                                        <img class="card__img-image" src="images/products-img-2.jpg" alt="img">
+                                    </div>
+                                    <p class="card__text">
+                                        Кухни и буфеты
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="products-swiper__slide products-slide swiper-slide">
+                                <a class="products-slide__card card card--small" href="#">
+                                    <div class="card__img">
+                                        <img class="card__img-image" src="images/products-img-3.jpg" alt="img">
+                                    </div>
+                                    <p class="card__text">
+                                        Спальни
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="products-swiper__slide products-slide swiper-slide">
+                                <a class="products-slide__card card card--small" href="#">
+                                    <div class="card__img">
+                                        <img class="card__img-image" src="images/products-img-4.jpg" alt="img">
+                                    </div>
+                                    <p class="card__text">
+                                        Гостинные
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="products-swiper__slide products-slide swiper-slide">
+                                <a class="products-slide__card card card--small" href="#">
+                                    <div class="card__img">
+                                        <img class="card__img-image" src="images/products-img-5.jpg" alt="img">
+                                    </div>
+                                    <p class="card__text">
+                                        Шкафы и гардеробные
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products__btn swiper-btn products__btn--prev">
+                        <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                        </svg>
+                    </div>
+                    <div class="products__btn swiper-btn products__btn--next">
+                        <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                        </svg>
+                    </div>
+                </div>
+            </section>
+            <section class="main__experience experience">
                 <div class="container">
-                    <div class="recalls__heading heading heading--centered">
+                    <div class="experience__inner">
+                        <div class="experience__heading heading">
+                            <h2 class="heading__title">
+                                Преимущества, созданные для вас
+                            </h2>
+                            <p class="heading__text">
+                                Компания предоставляет услуги более <br>
+                                20 лет и имеет богатый опыт в создании продуктов высокого качества
+                            </p>
+                        </div>
+                        <div class="experience__wrapper">
+                            <ol class="experience__list experience-list">
+                                <li class="experience-list__item">
+                                    <div class="experience-list__top">
+                                        <p class="experience-list__top-count link">
+                                            <span>
+
+                                            </span>
+                                        </p>
+                                        <p class="experience-list__top-text">
+                                            Собственное производство
+                                        </p>
+                                    </div>
+                                    <p class="experience-list__text">
+                                        Собственное производство позволяет компании контролировать качество всех
+                                        производственных процессов, от сырья до готового продукта
+                                    </p>
+                                </li>
+                                <li class="experience-list__item">
+                                    <div class="experience-list__top">
+                                        <p class="experience-list__top-count link">
+                                            <span>
+
+                                            </span>
+                                        </p>
+                                        <p class="experience-list__top-text">
+                                            Гарантия
+                                        </p>
+                                    </div>
+                                    <p class="experience-list__text">
+                                        Компания гарантирует качество своих изделий, что позволяет клиентам быть
+                                        уверенными
+                                        в их надежности и долговечности
+                                    </p>
+                                </li>
+                                <li class="experience-list__item">
+                                    <div class="experience-list__top">
+                                        <p class="experience-list__top-count link">
+                                            <span>
+
+                                            </span>
+                                        </p>
+                                        <p class="experience-list__top-text">
+                                            Разрабатываем
+                                            индивидуальные модели
+                                        </p>
+                                    </div>
+                                    <p class="experience-list__text">
+                                        Благодаря индивидуальному подходу к каждому клиенту, компания разрабатывает
+                                        модели,
+                                        полностью соответствующие их требованиям и ожиданиям
+                                    </p>
+                                </li>
+                                <li class="experience-list__item">
+                                    <div class="experience-list__top">
+                                        <p class="experience-list__top-count link">
+                                            <span>
+
+                                            </span>
+                                        </p>
+                                        <p class="experience-list__top-text">
+                                            Доставка по России
+                                        </p>
+                                    </div>
+                                    <p class="experience-list__text">
+                                        Благодаря услуге доставки по России, клиенты могут получить свои заказы в любой
+                                        регион страны, без необходимости самостоятельно заниматься поиском и доставкой
+                                    </p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__order order order--big">
+                <img class="order__bg" src="images/order-bg-2.jpg" alt="bg">
+                <div class="container">
+                    <div class="order__inner">
+                        <div class="order__heading heading heading--centered">
+                            <h2 class="heading__title">
+                                Хотите заказать проект <br>
+                                с эксклюзивным дизайном?
+                            </h2>
+                            <p class="heading__text">
+                                Опишите ваши пожелания по вашему проекту и мы свяжемся с вами в ближайшее время
+                            </p>
+                        </div>
+                        <form class="order__form order-form" action="#">
+                            <div class="order-form__inner">
+                                <input class="order-form__input" type="text" placeholder="Ваше имя">
+                                <input class="order-form__input" type="text" placeholder="Ваш телефон">
+                                <input class="order-form__input" type="text" placeholder="Email">
+                            </div>
+                            <button class="order-form__button link" type="button">
+                                отправить заявку
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="main__examples examples">
+                <div class="container">
+                    <div class="examples__heading heading">
+                        <h2 class="heading__title">
+                            Примеры наших
+                            коммерческих проектов
+                        </h2>
+                    </div>
+                    <div class="examples__inner">
+                        <div class="examples__swiper examples-swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="examples-swiper__slide examples-slide swiper-slide">
+                                    <div class="examples-slide__inner">
+                                        <h4 class="examples-slide__title">
+                                            Офис компании Прогресс
+                                        </h4>
+                                        <div class="examples-slide__img">
+                                            <img class="examples-slide__img-image" src="images/examples-img-1.jpg"
+                                                alt="img">
+                                        </div>
+                                        <a class="examples-slide__link link" href="#">
+                                            все проекты
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="examples-swiper__slide examples-slide swiper-slide">
+                                    <div class="examples-slide__inner">
+                                        <h4 class="examples-slide__title">
+                                            Офис компании Прогресс
+                                        </h4>
+                                        <div class="examples-slide__img">
+                                            <img class="examples-slide__img-image" src="images/examples-img-2.jpg"
+                                                alt="img">
+                                        </div>
+                                        <a class="examples-slide__link link" href="#">
+                                            все проекты
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="examples__btn swiper-btn examples__btn--prev">
+                            <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                            </svg>
+                        </div>
+                        <div class="examples__btn swiper-btn examples__btn--next">
+                            <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__approach approach">
+                <div class="container">
+                    <div class="approach__inner">
+                        <div class="approach__heading heading">
+                            <h2 class="heading__title">
+                                Новый уровень <br>
+                                комфорта в вашем доме
+                            </h2>
+                            <a class="heading__link link" href="#">
+                                подробнее
+                            </a>
+                        </div>
+                        <div class="approach__wrapper">
+                            <p class="approach__text">
+                                Изготовление изделий мы доверяем только первоклассному немецкому оборудованию. Этот
+                                современный комплекс машин, управляемый единым программным обеспечением, создает каждую
+                                деталь в строгом соответствии с заданными технологическими параметрами, поэтому мы
+                                уверены в качестве нашей мебели и гарантируем его.
+                            </p>
+                            <p class="approach__text">
+                                Команда профессионалов, занятых на фабрике, а их более сотни, регулярно повышает уровень
+                                своей квалификации, чтобы быть в курсе последних новинок мебельной индустрии, поэтому мы
+                                всегда с удовольствием предложим Вам что-то интересное.
+                            </p>
+                            <a class="approach__link link" href="#">
+                                подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="approach__img">
+                    <img class="approach__img-image" src="images/approach-img-1.jpg" alt="img">
+                </div>
+            </section>
+            <section class="main__clients clients">
+                <div class="container">
+                    <div class="clients__top clients-top">
+                        <div class="clients-top__heading heading">
+                            <h2 class="heading__title">
+                                Наши клиенты
+                            </h2>
+                        </div>
+                        <div class="clients-top__buttons">
+                            <div class="clients-top__buttons-btn swiper-btn clients-top__buttons-btn--prev">
+                                <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                                </svg>
+                            </div>
+                            <div class="clients-top__buttons-btn swiper-btn clients-top__buttons-btn--next">
+                                <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clients__swiper clients-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="clients-swiper__slide clients-slide swiper-slide">
+                                <div class="clients-slide__img">
+                                    <img class="clients-slide__img-image" src="images/clients-img-1.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="clients-swiper__slide clients-slide swiper-slide">
+                                <div class="clients-slide__img">
+                                    <img class="clients-slide__img-image" src="images/clients-img-2.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="clients-swiper__slide clients-slide swiper-slide">
+                                <div class="clients-slide__img">
+                                    <img class="clients-slide__img-image" src="images/clients-img-3.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="clients-swiper__slide clients-slide swiper-slide">
+                                <div class="clients-slide__img">
+                                    <img class="clients-slide__img-image" src="images/clients-img-4.png" alt="img">
+                                </div>
+                            </div>
+                            <div class="clients-swiper__slide clients-slide swiper-slide">
+                                <div class="clients-slide__img">
+                                    <img class="clients-slide__img-image" src="images/clients-img-5.png" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__recalls recalls recalls--shorted">
+                <div class="container">
+                    <div class="recalls__heading heading">
                         <h1 class="heading__title">
-                            Отзывы
+                            Клиенты, искренне поделившиеся своим мнением о сотрудничестве с нами
                         </h1>
+                        <a class="heading__link link" href="#">
+                            все отзывы
+                        </a>
                     </div>
                 </div>
                 <div class="recalls__inner">
                     <div class="recalls__wrapper">
-                        <a class="recalls__video recalls-video" data-fancybox=""
-                            href="https://www.youtube.com/watch?v=QwJwemOX37w">
-                            <div class="recalls-video__wrapper">
-                                <img class="recalls-video__img" src="images/recalls-img-video-1.jpg" alt="img">
-                                <div class="recalls-video__inner">
-                                    <p class="recalls-video__text">
-                                        <span>
-                                            Видеоотзыв
-                                        </span>
-                                        на кухню Маноло
-                                    </p>
-                                    <div class="recalls-video__play-icon">
-                                        <svg width="12" height="14" viewBox="0 0 12 14" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 7L3.01142e-07 13.9282L9.06825e-07 0.0717964L12 7Z"
-                                                fill="#F8F8F8" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
                         <div class="recalls__item recalls-item">
                             <div class="recalls-item__img">
                                 <img class="recalls-item__img-image" src="images/recalls-img-person-1.jpg" alt="img">
@@ -219,27 +517,6 @@
                                 </span>
                                 <time>
                                     21.12.2019
-                                </time>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="recalls__wrapper">
-                        <div class="recalls__item recalls-item">
-                            <div class="recalls-item__img">
-                                <img class="recalls-item__img-image" src="images/recalls-img-person-3.jpg" alt="img">
-                            </div>
-                            <p class="recalls-item__text">
-                                Ассортимент позволяет сделать кухню на любой вкус и по-настоящему уникальную. Я сначала
-                                поездил по всему городу, долго выбирал где лучше и дешевле. Пожалел, что сразу не
-                                приехал сюда. Выбор, качество супер! Я даже представить не мог , что у нас делают такую
-                                классную мебель. Спасибо! Всем рекомендую.
-                            </p>
-                            <p class="recalls-item__info link">
-                                <span>
-                                    Равиль,
-                                </span>
-                                <time>
-                                    07.02.2017
                                 </time>
                             </p>
                         </div>
@@ -262,169 +539,6 @@
                                 </time>
                             </p>
                         </div>
-                        <a class="recalls__video recalls-video" data-fancybox=""
-                            href="https://www.youtube.com/watch?v=QwJwemOX37w">
-                            <div class="recalls-video__wrapper">
-                                <img class="recalls-video__img" src="images/recalls-img-video-2.jpg" alt="img">
-                                <div class="recalls-video__inner">
-                                    <p class="recalls-video__text">
-                                        <span>
-                                            Видеоотзыв
-                                        </span>
-                                        от застройщика ЖК Атмосфера
-                                    </p>
-                                    <div class="recalls-video__play-icon">
-                                        <svg width="12" height="14" viewBox="0 0 12 14" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 7L3.01142e-07 13.9282L9.06825e-07 0.0717964L12 7Z"
-                                                fill="#F8F8F8" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="recalls__wrapper">
-                        <a class="recalls__video recalls-video" data-fancybox=""
-                            href="https://www.youtube.com/watch?v=QwJwemOX37w">
-                            <div class="recalls-video__wrapper">
-                                <img class="recalls-video__img" src="images/recalls-img-video-3.jpg" alt="img">
-                                <div class="recalls-video__inner">
-                                    <p class="recalls-video__text">
-                                        <span>
-                                            Видеоотзыв
-                                        </span>
-                                        владельца кофейни Даир
-                                    </p>
-                                    <div class="recalls-video__play-icon">
-                                        <svg width="12" height="14" viewBox="0 0 12 14" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 7L3.01142e-07 13.9282L9.06825e-07 0.0717964L12 7Z"
-                                                fill="#F8F8F8" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="recalls__item recalls-item">
-                            <p class="recalls-item__text">
-                                Редко оставляю какие-либо отзывы и чаще они отрицательные. Но здесь решила написать,
-                                чтобы хоть как-то выразить свою благодарность компании и ее сотрудникам. Спасибо за
-                                хорошее настроение, которое мне уже долгие годы доставляет ваша мебель. Именно так.
-                                каждый день я захожу в свой скромный "домашний кабинет" и настроение улучшается. И глаза
-                                радуются и просто удобно и комфортно. Еще лет 15 назад сделала заказ. Мне помогли
-                                грамотно оформить мою небольшую комнату. Очень удобно разработали стол, индивидуально.
-                                Мебель до сих пор в идеальном состоянии и смотрится современной. Сейчас заказали мебель
-                                для подросшей дочери. Читать полностью
-                            </p>
-                            <p class="recalls-item__info link">
-                                <span>
-                                    Татьяна,
-                                </span>
-                                <time>
-                                    18.01.2017
-                                </time>
-                            </p>
-                        </div>
-                        <div class="recalls__item recalls-item">
-                            <div class="recalls-item__img">
-                                <img class="recalls-item__img-image" src="images/recalls-img-person-2.jpg" alt="img">
-                            </div>
-                            <p class="recalls-item__text">
-                                Хочется сказать огромное «спасибо» коллективу «Астмебель», а особенно
-                                менеджеру-дизайнеру Кравцовой Елене, которая угадала, какую мебель мы хотим и в итоге
-                                спроектировала все на высшем уровне. А также Закаряеву А. — сборщику мебели, качественно
-                                и аккуратно собравшему мебель. Большое и огромное вам всем спасибо!
-                            </p>
-                            <p class="recalls-item__info link">
-                                <span>
-                                    Кононенко
-                                </span>
-                                <time>
-                                    21.12.2019
-                                </time>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="recalls__wrapper">
-                        <div class="recalls__item recalls-item">
-                            <div class="recalls-item__img">
-                                <img class="recalls-item__img-image" src="images/recalls-img-person-2.jpg" alt="img">
-                            </div>
-                            <p class="recalls-item__text">
-                                Хочется сказать огромное «спасибо» коллективу «Астмебель», а особенно
-                                менеджеру-дизайнеру Кравцовой Елене, которая угадала, какую мебель мы хотим и в итоге
-                                спроектировала все на высшем уровне. А также Закаряеву А. — сборщику мебели, качественно
-                                и аккуратно собравшему мебель. Большое и огромное вам всем спасибо!
-                            </p>
-                            <p class="recalls-item__info link">
-                                <span>
-                                    Андреева Н. А.
-                                </span>
-                                <time>
-                                    28.12.2019
-                                </time>
-                            </p>
-                        </div>
-                        <div class="recalls__item recalls-item">
-                            <div class="recalls-item__img">
-                                <img class="recalls-item__img-image" src="images/recalls-img-person-1.jpg" alt="img">
-                            </div>
-                            <p class="recalls-item__text">
-                                Приятно порадовала ваша офисная мебель! Очень стильная, статусная. Работать одно
-                                удовольствие. Про качество и говорить нечего, как всегда на высоте! Все сделали
-                                по индивидуальному заказу, учли все пожелания, а их было не мало! Огромное спасибо!
-                            </p>
-                            <p class="recalls-item__info link">
-                                <span>
-                                    Андреева Н. А.
-                                </span>
-                                <time>
-                                    28.12.2019
-                                </time>
-                            </p>
-                        </div>
-                        <div class="recalls__item recalls-item">
-                            <div class="recalls-item__img">
-                                <img class="recalls-item__img-image" src="images/recalls-img-person-4.jpg" alt="img">
-                            </div>
-                            <p class="recalls-item__text">
-                                Не раз заказывали мебель в вашем салоне и каждый раз довольны! Спальня великолепная,
-                                красивая, стильная, качественная. Все продуманно до мелочей. Пользоваться одно
-                                удовольствие. Для ребёнка делали на заказ комод и также остались довольны. Успехов
-                                и процветания вашему салону!
-                            </p>
-                            <p class="recalls-item__info link">
-                                <span>
-                                    Кононенко
-                                </span>
-                                <time>
-                                    21.12.2019
-                                </time>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="recalls__pagination pagination">
-                    <div class="container">
-                        <ul class="pagination__list">
-                            <li class="pagination__list-item">
-                                <button class="pagination__list-button pagination__list-button--active" type="button"
-                                    id="0">
-                                    1
-                                </button>
-                            </li>
-                            <li class="pagination__list-item">
-                                <button class="pagination__list-button" type="button" id="0">
-                                    2
-                                </button>
-                            </li>
-                            <li class="pagination__list-item">
-                                <button class="pagination__list-button" type="button" id="0">
-                                    3
-                                </button>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </section>
@@ -612,7 +726,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 

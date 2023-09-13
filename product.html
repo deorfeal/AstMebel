@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog</title>
+    <title>Product</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -151,225 +152,283 @@
                             </a>
                         </li>
                         <li class="breadcrumbs__list-item">
+                            <a class="breadcrumbs__list-link" href="#">
+                                Диваны
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__list-item">
                             <p class="breadcrumbs__list-text" href="#">
-                                Кухни и буфеты
+                                Диван Сонет
                             </p>
                         </li>
                     </ul>
                 </div>
             </div>
-            <section class="main__catalog catalog">
-                <div class="container">
-                    <div class="catalog__heading heading heading--centered">
-                        <h1 class="heading__title">
-                            Кухни и буфеты
+            <section class="main__product product">
+                <div class="product__inner">
+                    <div class="product__body product-body">
+                        <h1 class="product-body__title">
+                            Диван Сонет
                         </h1>
+                        <p class="product-body__subtext">
+                            от 94 600₽
+                        </p>
+                        <a class="product-body__link btn" href="#">
+                            заказать
+                        </a>
                     </div>
-                    <div class="catalog__filters catalog-filters">
-                        <div class="catalog-filters__categiries">
-                            <button class="catalog-filters__categiries-button" type="button" id="0">
-                                акции
-                            </button>
-                            <button class="catalog-filters__categiries-button" type="button" id="1">
-                                новинки
-                            </button>
-                            <button class="catalog-filters__categiries-button" type="button" id="2">
-                                наличие
-                            </button>
-                        </div>
-                        <div class="catalog-filters__selects">
-                            <div class="catalog-filters__selects-select custom-select">
-                                <select>
-                                    <option value="0">стиль</option>
-                                    <option value="1">стиль 1</option>
-                                    <option value="2">стиль 2</option>
-                                </select>
-                            </div>
-                            <div class="catalog-filters__selects-select custom-select">
-                                <select>
-                                    <option value="0">сортировка</option>
-                                    <option value="1">сортировка 1</option>
-                                    <option value="2">сортировка 2</option>
-                                </select>
-                            </div>
-                            <div class="catalog-filters__selects-select custom-select">
-                                <select>
-                                    <option value="0">тип продукции</option>
-                                    <option value="1">тип продукции 1</option>
-                                    <option value="2">тип продукции 2</option>
-                                </select>
-                            </div>
+                    <div class="product__view product-view">
+                        <!--  -->
+                        <!--  -->
+                    </div>
+                    <div class="product__body product-body">
+                        <h1 class="product-body__title">
+                            Диван Сонет
+                        </h1>
+                        <p class="product-body__subtext">
+                            от 94 600₽
+                        </p>
+                        <a class="product-body__link btn" href="#">
+                            заказать
+                        </a>
+                        <p class="product-body__text">
+                            Любителей геометрии этот диван не оставит равнодушными. "Сонет" обладает шармом простых
+                            линий и стройностью симметрии. Прямые формы модулей идеально впишутся в интерьер современной
+                            гостиной. Большая глубина посадки способствует максимальному расслаблению и отдыху.
+                        </p>
+                        <div class="product-body__info product-info">
+                            <ul class="product-info__list">
+                                <li class="product-info__list-item">
+                                    <p class="product-info__list-text">
+                                        Ширина, см
+                                    </p>
+                                    <span>
+
+                                    </span>
+                                    <p class="product-info__list-text">
+                                        190
+                                    </p>
+                                </li>
+                                <li class="product-info__list-item">
+                                    <p class="product-info__list-text">
+                                        Высота, см
+                                    </p>
+                                    <span>
+
+                                    </span>
+                                    <p class="product-info__list-text">
+                                        200
+                                    </p>
+                                </li>
+                                <li class="product-info__list-item">
+                                    <p class="product-info__list-text">
+                                        Глубина, см
+                                    </p>
+                                    <span>
+
+                                    </span>
+                                    <p class="product-info__list-text">
+                                        60
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="catalog__inner">
-                    <a class="catalog__card card card--medium card--new" href="#">
-                        <div class="card__img">
-                            <p class="card__img-suptext">
-                                новинка
+                <div class="product__about about-product">
+                    <ol class="about-product__list about-product-list">
+                        <li class="about-product-list__item">
+                            <div class="about-product-list__top">
+                                <p class="about-product-list__top-count link">
+                                    <span>
+
+                                    </span>
+                                </p>
+                                <p class="about-product-list__top-text">
+                                    Доп. характеристика
+                                </p>
+                            </div>
+                            <p class="about-product-list__text">
+                                Любителей геометрии этот диван не оставит равнодушными. "Сонет" обладает шармом простых
+                                линий и стройностью симметрии. Прямые формы модулей идеально впишутся в интерьер
+                                современной гостиной. Большая глубина посадки способствует максимальному расслаблению и
+                                отдыху.
                             </p>
-                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Сапфир
-                        </p>
-                        <p class="card__price">
-                            от 90 180₽
-                        </p>
-                    </a>
-                    <a class="catalog__card card card--medium" href="#">
-                        <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Астория
-                        </p>
-                        <p class="card__price">
-                            от 106 750₽
-                        </p>
-                    </a>
-                    <a class="catalog__card card card--medium" href="#">
-                        <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Эллегия
-                        </p>
-                        <p class="card__price">
-                            от 94 600₽
-                        </p>
-                    </a>
-                    <a class="catalog__card card card--medium" href="#">
-                        <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Сапфир
-                        </p>
-                        <p class="card__price">
-                            от 90 180₽
-                        </p>
-                    </a>
-                    <a class="catalog__card card card--medium card--availability" href="#">
-                        <div class="card__img">
-                            <p class="card__img-suptext">
-                                В наличии
+                        </li>
+                        <li class="about-product-list__item">
+                            <div class="about-product-list__top">
+                                <p class="about-product-list__top-count link">
+                                    <span>
+
+                                    </span>
+                                </p>
+                                <p class="about-product-list__top-text">
+                                    Доп. характеристика
+                                </p>
+                            </div>
+                            <p class="about-product-list__text">
+                                Любителей геометрии этот диван не оставит равнодушными. "Сонет" обладает шармом простых
+                                линий и стройностью симметрии. Прямые формы модулей идеально впишутся в интерьер
+                                современной гостиной. Большая глубина посадки способствует максимальному расслаблению и
+                                отдыху.
                             </p>
-                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Астория
-                        </p>
-                        <p class="card__price">
-                            от 106 750₽
-                        </p>
-                    </a>
-                    <a class="catalog__card card card--medium card--discount" href="#">
-                        <div class="card__img">
-                            <p class="card__img-suptext">
-                                -10%
+                        </li>
+                        <li class="about-product-list__item">
+                            <div class="about-product-list__top">
+                                <p class="about-product-list__top-count link">
+                                    <span>
+
+                                    </span>
+                                </p>
+                                <p class="about-product-list__top-text">
+                                    Доп. характеристика
+                                </p>
+                            </div>
+                            <p class="about-product-list__text">
+                                Любителей геометрии этот диван не оставит равнодушными. "Сонет" обладает шармом простых
+                                линий и стройностью симметрии. Прямые формы модулей идеально впишутся в интерьер
+                                современной гостиной. Большая глубина посадки способствует максимальному расслаблению и
+                                отдыху.
                             </p>
-                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Эллегия
-                        </p>
-                        <p class="card__price">
-                            <ins>
-                                94 600₽
-                            </ins>
-                            <del>
-                                108 600₽
-                            </del>
-                        </p>
-                    </a>
-                    <a class="catalog__card card card--medium" href="#">
-                        <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Сапфир
-                        </p>
-                        <p class="card__price">
-                            от 90 180₽
-                        </p>
-                    </a>
-                    <a class="catalog__card card card--medium" href="#">
-                        <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Астория
-                        </p>
-                        <p class="card__price">
-                            от 106 750₽
-                        </p>
-                    </a>
-                    <a class="catalog__card card card--medium" href="#">
-                        <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Эллегия
-                        </p>
-                        <p class="card__price">
-                            от 94 600₽
-                        </p>
-                    </a>
-                    <a class="catalog__card card card--medium" href="#">
-                        <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Сапфир
-                        </p>
-                        <p class="card__price">
-                            от 90 180₽
-                        </p>
-                    </a>
-                    <a class="catalog__card card card--medium" href="#">
-                        <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Астория
-                        </p>
-                        <p class="card__price">
-                            от 106 750₽
-                        </p>
-                    </a>
-                    <a class="catalog__card card card--medium" href="#">
-                        <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img">
-                        </div>
-                        <p class="card__text">
-                            Эллегия
-                        </p>
-                        <p class="card__price">
-                            от 94 600₽
-                        </p>
-                    </a>
+                        </li>
+                        <li class="about-product-list__item">
+                            <div class="about-product-list__top">
+                                <p class="about-product-list__top-count link">
+                                    <span>
+
+                                    </span>
+                                </p>
+                                <p class="about-product-list__top-text">
+                                    Доп. характеристика
+                                </p>
+                            </div>
+                            <p class="about-product-list__text">
+                                Любителей геометрии этот диван не оставит равнодушными. "Сонет" обладает шармом простых
+                                линий и стройностью симметрии. Прямые формы модулей идеально впишутся в интерьер
+                                современной гостиной. Большая глубина посадки способствует максимальному расслаблению и
+                                отдыху.
+                            </p>
+                        </li>
+                    </ol>
                 </div>
-                <div class="catalog__pagination pagination">
-                    <div class="container">
-                        <ul class="pagination__list">
-                            <li class="pagination__list-item">
-                                <button class="pagination__list-button pagination__list-button--active" type="button"
-                                    id="0">
-                                    1
-                                </button>
-                            </li>
-                            <li class="pagination__list-item">
-                                <button class="pagination__list-button" type="button" id="0">
-                                    2
-                                </button>
-                            </li>
-                            <li class="pagination__list-item">
-                                <button class="pagination__list-button" type="button" id="0">
-                                    3
-                                </button>
-                            </li>
-                        </ul>
+            </section>
+            <div class="main__projects projects">
+                <div class="container">
+                    <div class="projects__inner">
+                        <div class="projects__swiper projects-swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="projects-swiper__slide projects-slide swiper-slide">
+                                    <a class="projects-slide__link projects-slide-link" href="#">
+                                        <div class="projects-slide-link__img">
+                                            <img class="projects-slide-link__img-image" src="images/projects-img-1.jpg"
+                                                alt="img">
+                                        </div>
+                                        <p class="projects-slide-link__text">
+                                            Идеальное жилье: инновационные проекты для комфортной жизни
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="projects-swiper__slide projects-slide swiper-slide">
+                                    <a class="projects-slide__link projects-slide-link" href="#">
+                                        <div class="projects-slide-link__img">
+                                            <img class="projects-slide-link__img-image" src="images/projects-img-2.jpg"
+                                                alt="img">
+                                        </div>
+                                        <p class="projects-slide-link__text">
+                                            Идеальное жилье: инновационные проекты для комфортной жизни
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="projects-swiper__slide projects-slide swiper-slide">
+                                    <a class="projects-slide__link projects-slide-link" href="#">
+                                        <div class="projects-slide-link__img">
+                                            <img class="projects-slide-link__img-image" src="images/projects-img-1.jpg"
+                                                alt="img">
+                                        </div>
+                                        <p class="projects-slide-link__text">
+                                            Идеальное жилье: инновационные проекты для комфортной жизни
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__btn swiper-btn projects__btn--prev">
+                            <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                            </svg>
+                        </div>
+                        <div class="projects__btn swiper-btn projects__btn--next">
+                            <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="main__offers offers">
+                <div class="container">
+                    <h2 class="offers__title">
+                        Сопутствующие товары
+                    </h2>
+                </div>
+                <div class="offers__inner">
+                    <div class="offers__swiper offers-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="offers-swiper__slide offers-slide swiper-slide">
+                                <a class="offers-slide__card card card--medium card--new" href="#">
+                                    <div class="card__img">
+                                        <p class="card__img-suptext">
+                                            новинка
+                                        </p>
+                                        <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img">
+                                    </div>
+                                    <p class="card__text">
+                                        Сапфир
+                                    </p>
+                                    <p class="card__price">
+                                        от 90 180₽
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="offers-swiper__slide offers-slide swiper-slide">
+                                <a class="offers-slide__card card card--medium" href="#">
+                                    <div class="card__img">
+                                        <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img">
+                                    </div>
+                                    <p class="card__text">
+                                        Астория
+                                    </p>
+                                    <p class="card__price">
+                                        от 106 750₽
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="offers-swiper__slide offers-slide swiper-slide">
+                                <a class="offers-slide__card card card--medium" href="#">
+                                    <div class="card__img">
+                                        <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img">
+                                    </div>
+                                    <p class="card__text">
+                                        Эллегия
+                                    </p>
+                                    <p class="card__price">
+                                        от 94 600₽
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offers__btn swiper-btn offers__btn--prev">
+                        <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                        </svg>
+                    </div>
+                    <div class="offers__btn swiper-btn offers__btn--next">
+                        <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                        </svg>
                     </div>
                 </div>
             </section>
@@ -557,6 +616,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 
