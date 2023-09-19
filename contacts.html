@@ -12,12 +12,13 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo logo" href="#">
@@ -25,6 +26,73 @@
                 </a>
                 <div class="header__wrapper">
                     <nav class="header__menu menu">
+                        <ul class="menu__list menu-list">
+                            <li class="menu-list__item menu-list__item--catalog">
+                                Каталог
+                                <ul class="menu-list__sublist">
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Кухни и буфеты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Спальни
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Шкафы и гардеробные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Гостиные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Детские
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Диваны
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Комоды и тумбы
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Прихожие
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Двери
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Ванные комнаты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Офис
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Готовое решение
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                         <ul class="menu__list menu-list">
                             <li class="menu-list__item menu-list__item--catalog">
                                 Каталог
@@ -138,7 +206,7 @@
 
     <div class="wrapper">
         <main class="main">
-            <div class="main__breadcrumbs breadcrumbs">
+            <div class="main__breadcrumbs breadcrumbs" data-aos="fade-right">
                 <div class="container">
                     <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__list-item">
@@ -157,13 +225,13 @@
             <section class="main__contacts contacts">
                 <div class="container">
                     <div class="contacts__heading heading heading--centered">
-                        <h1 class="heading__title">
+                        <h1 class="heading__title" data-aos="fade-down">
                             Контакты
                         </h1>
                     </div>
                 </div>
                 <div class="contacts__inner">
-                    <div class="contacts__item contacts-item">
+                    <div class="contacts__item contacts-item" data-aos="fade-down">
                         <p class="contacts-item__text">
                             Телефон
                         </p>
@@ -171,7 +239,7 @@
                             +7 (8512) 47-75-36
                         </a>
                     </div>
-                    <div class="contacts__item contacts-item">
+                    <div class="contacts__item contacts-item" data-aos="fade-down">
                         <p class="contacts-item__text">
                             Email
                         </p>
@@ -179,7 +247,7 @@
                             info@astmebel.ru
                         </a>
                     </div>
-                    <div class="contacts__item contacts-item">
+                    <div class="contacts__item contacts-item" data-aos="fade-down">
                         <p class="contacts-item__text">
                             Адрес
                         </p>
@@ -192,20 +260,20 @@
             <section class="main__connection connection">
                 <div class="container">
                     <div class="connection__inner">
-                        <div class="connection__map">
+                        <div class="connection__map" data-aos="fade-down">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6426.229408164765!2d48.075477245955646!3d46.35164495807068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41a905168d8a80ed%3A0x1a8d5baa83ff930a!2zMy3RjyDQl9C10LvQtdC90LPQuNC90YHQutCw0Y8g0YPQuy4sIDEzLCDQkNGB0YLRgNCw0YXQsNC90YwsINCQ0YHRgtGA0LDRhdCw0L3RgdC60LDRjyDQvtCx0LsuLCDQoNC-0YHRltGPLCA0MTQwMDQ!5e0!3m2!1suk!2sus!4v1694358201052!5m2!1suk!2sus"
                                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <form class="connection__form" action="#">
-                            <h2 class="connection__form-title">
+                            <h2 class="connection__form-title" data-aos="fade-right">
                                 Свяжитесь с нами
                             </h2>
-                            <input class="connection__form-input" type="text" placeholder="Ваше имя">
-                            <input class="connection__form-input" type="tel" placeholder="Ваш телефон">
-                            <input class="connection__form-input" type="email" placeholder="Email">
-                            <button class="connection__form-button link" type="button">
+                            <input class="connection__form-input" type="text" placeholder="Ваше имя" data-aos="fade-right">
+                            <input class="connection__form-input" type="tel" placeholder="Ваш телефон" data-aos="fade-right">
+                            <input class="connection__form-input" type="email" placeholder="Email" data-aos="fade-right">
+                            <button class="connection__form-button link" type="button" data-aos="fade-right">
                                 отправить заявку
                             </button>
                         </form>
@@ -213,7 +281,7 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer" data-aos="fade-down">
             <div class="container">
                 <div class="footer__inner">
                     <div class="footer__box footer-box">
@@ -397,6 +465,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 

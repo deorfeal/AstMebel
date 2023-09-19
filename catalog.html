@@ -11,12 +11,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo logo" href="#">
@@ -24,6 +25,73 @@
                 </a>
                 <div class="header__wrapper">
                     <nav class="header__menu menu">
+                        <ul class="menu__list menu-list">
+                            <li class="menu-list__item menu-list__item--catalog">
+                                Каталог
+                                <ul class="menu-list__sublist">
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Кухни и буфеты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Спальни
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Шкафы и гардеробные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Гостиные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Детские
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Диваны
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Комоды и тумбы
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Прихожие
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Двери
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Ванные комнаты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Офис
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Готовое решение
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                         <ul class="menu__list menu-list">
                             <li class="menu-list__item menu-list__item--catalog">
                                 Каталог
@@ -137,7 +205,7 @@
 
     <div class="wrapper">
         <main class="main">
-            <div class="main__breadcrumbs breadcrumbs">
+            <div class="main__breadcrumbs breadcrumbs" data-aos="fade-right">
                 <div class="container">
                     <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__list-item">
@@ -160,13 +228,13 @@
             </div>
             <section class="main__catalog catalog">
                 <div class="container">
-                    <div class="catalog__heading heading heading--centered">
-                        <h1 class="heading__title">
+                    <div class="catalog__heading heading heading--centered" >
+                        <h1 class="heading__title" data-aos="fade-down">
                             Кухни и буфеты
                         </h1>
                     </div>
                     <div class="catalog__filters catalog-filters">
-                        <div class="catalog-filters__categiries">
+                        <div class="catalog-filters__categiries" data-aos="fade-right">
                             <button class="catalog-filters__categiries-button" type="button" id="0">
                                 акции
                             </button>
@@ -177,7 +245,7 @@
                                 наличие
                             </button>
                         </div>
-                        <div class="catalog-filters__selects">
+                        <div class="catalog-filters__selects" data-aos="fade-left">
                             <div class="catalog-filters__selects-select custom-select">
                                 <select>
                                     <option value="0">стиль</option>
@@ -203,154 +271,178 @@
                     </div>
                 </div>
                 <div class="catalog__inner">
-                    <a class="catalog__card card card--medium card--new" href="#">
+                    <a class="catalog__card card card--medium card--new" href="#" >
                         <div class="card__img">
                             <p class="card__img-suptext">
                                 новинка
                             </p>
-                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Сапфир
-                        </p>
-                        <p class="card__price">
-                            от 90 180₽
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Сапфир
+                            </p>
+                            <p class="card__price">
+                                от 90 180₽
+                            </p>
+                        </div>
                     </a>
                     <a class="catalog__card card card--medium" href="#">
                         <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Астория
-                        </p>
-                        <p class="card__price">
-                            от 106 750₽
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Астория
+                            </p>
+                            <p class="card__price">
+                                от 106 750₽
+                            </p>
+                        </div>
                     </a>
                     <a class="catalog__card card card--medium" href="#">
                         <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Эллегия
-                        </p>
-                        <p class="card__price">
-                            от 94 600₽
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Эллегия
+                            </p>
+                            <p class="card__price">
+                                от 94 600₽
+                            </p>
+                        </div>
                     </a>
                     <a class="catalog__card card card--medium" href="#">
                         <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Сапфир
-                        </p>
-                        <p class="card__price">
-                            от 90 180₽
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Сапфир
+                            </p>
+                            <p class="card__price">
+                                от 90 180₽
+                            </p>
+                        </div>
                     </a>
                     <a class="catalog__card card card--medium card--availability" href="#">
                         <div class="card__img">
                             <p class="card__img-suptext">
                                 В наличии
                             </p>
-                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Астория
-                        </p>
-                        <p class="card__price">
-                            от 106 750₽
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Астория
+                            </p>
+                            <p class="card__price">
+                                от 106 750₽
+                            </p>
+                        </div>
                     </a>
                     <a class="catalog__card card card--medium card--discount" href="#">
                         <div class="card__img">
                             <p class="card__img-suptext">
                                 -10%
                             </p>
-                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Эллегия
-                        </p>
-                        <p class="card__price">
-                            <ins>
-                                94 600₽
-                            </ins>
-                            <del>
-                                108 600₽
-                            </del>
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Эллегия
+                            </p>
+                            <p class="card__price">
+                                <ins>
+                                    94 600₽
+                                </ins>
+                                <del>
+                                    108 600₽
+                                </del>
+                            </p>
+                        </div>
                     </a>
                     <a class="catalog__card card card--medium" href="#">
                         <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Сапфир
-                        </p>
-                        <p class="card__price">
-                            от 90 180₽
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Сапфир
+                            </p>
+                            <p class="card__price">
+                                от 90 180₽
+                            </p>
+                        </div>
                     </a>
                     <a class="catalog__card card card--medium" href="#">
                         <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Астория
-                        </p>
-                        <p class="card__price">
-                            от 106 750₽
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Астория
+                            </p>
+                            <p class="card__price">
+                                от 106 750₽
+                            </p>
+                        </div>
                     </a>
                     <a class="catalog__card card card--medium" href="#">
                         <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Эллегия
-                        </p>
-                        <p class="card__price">
-                            от 94 600₽
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Эллегия
+                            </p>
+                            <p class="card__price">
+                                от 94 600₽
+                            </p>
+                        </div>
                     </a>
                     <a class="catalog__card card card--medium" href="#">
                         <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-2.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Сапфир
-                        </p>
-                        <p class="card__price">
-                            от 90 180₽
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Сапфир
+                            </p>
+                            <p class="card__price">
+                                от 90 180₽
+                            </p>
+                        </div>
                     </a>
                     <a class="catalog__card card card--medium" href="#">
                         <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-3.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Астория
-                        </p>
-                        <p class="card__price">
-                            от 106 750₽
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Астория
+                            </p>
+                            <p class="card__price">
+                                от 106 750₽
+                            </p>
+                        </div>
                     </a>
                     <a class="catalog__card card card--medium" href="#">
                         <div class="card__img">
-                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img">
+                            <img class="card__img-image" src="images/catalog-img-1.jpg" alt="img" data-aos="zoom-in-down">
                         </div>
-                        <p class="card__text">
-                            Эллегия
-                        </p>
-                        <p class="card__price">
-                            от 94 600₽
-                        </p>
+                        <div class="card__wrapper">
+                            <p class="card__text">
+                                Эллегия
+                            </p>
+                            <p class="card__price">
+                                от 94 600₽
+                            </p>
+                        </div>
                     </a>
                 </div>
-                <div class="catalog__pagination pagination">
+                <div class="catalog__pagination pagination" data-aos="fade-down">
                     <div class="container">
                         <ul class="pagination__list">
                             <li class="pagination__list-item">
@@ -374,7 +466,7 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer" data-aos="fade-down">
             <div class="container">
                 <div class="footer__inner">
                     <div class="footer__box footer-box">
@@ -557,6 +649,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 

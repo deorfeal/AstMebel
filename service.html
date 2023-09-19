@@ -12,12 +12,13 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo logo" href="#">
@@ -25,6 +26,73 @@
                 </a>
                 <div class="header__wrapper">
                     <nav class="header__menu menu">
+                        <ul class="menu__list menu-list">
+                            <li class="menu-list__item menu-list__item--catalog">
+                                Каталог
+                                <ul class="menu-list__sublist">
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Кухни и буфеты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Спальни
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Шкафы и гардеробные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Гостиные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Детские
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Диваны
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Комоды и тумбы
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Прихожие
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Двери
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Ванные комнаты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Офис
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Готовое решение
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                         <ul class="menu__list menu-list">
                             <li class="menu-list__item menu-list__item--catalog">
                                 Каталог
@@ -138,7 +206,7 @@
 
     <div class="wrapper">
         <main class="main">
-            <div class="main__breadcrumbs breadcrumbs">
+            <div class="main__breadcrumbs breadcrumbs" data-aos="fade-right">
                 <div class="container">
                     <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__list-item">
@@ -157,7 +225,7 @@
             <section class="main__service service">
                 <div class="container">
                     <div class="service__heading heading heading--centered">
-                        <h1 class="heading__title">
+                        <h1 class="heading__title" data-aos="fade-down">
                             Сервис
                         </h1>
                     </div>
@@ -166,22 +234,23 @@
                     <aside class="service__aside service-aside">
                         <nav class="service-aside__menu service-aside-menu">
                             <ul class="service-aside-menu__list">
-                                <li class="service-aside-menu__list-item service-aside-menu__list-item--active">
+                                <li class="service-aside-menu__list-item service-aside-menu__list-item--active"
+                                    data-aos="fade-right">
                                     <a class="service-aside-menu__list-link" href="#">
                                         Оплата
                                     </a>
                                 </li>
-                                <li class="service-aside-menu__list-item">
+                                <li class="service-aside-menu__list-item" data-aos="fade-right">
                                     <a class="service-aside-menu__list-link" href="#">
                                         Замеры
                                     </a>
                                 </li>
-                                <li class="service-aside-menu__list-item">
+                                <li class="service-aside-menu__list-item" data-aos="fade-right">
                                     <a class="service-aside-menu__list-link" href="#">
                                         Доставка и сборка
                                     </a>
                                 </li>
-                                <li class="service-aside-menu__list-item">
+                                <li class="service-aside-menu__list-item" data-aos="fade-right">
                                     <a class="service-aside-menu__list-link" href="#">
                                         Гарантии
                                     </a>
@@ -191,10 +260,10 @@
                     </aside>
                     <div class="service__body service-body">
                         <div class="service-body__box service-body-box">
-                            <h3 class="service-body-box__title">
+                            <h3 class="service-body-box__title" data-aos="fade-down">
                                 Оплата
                             </h3>
-                            <p class="service-body-box__text">
+                            <p class="service-body-box__text" data-aos="fade-down">
                                 Компания «Астмебель» -один из крупнейших российских производителей мебели по
                                 индивидуальным эскизам. За это время мы переживали взлеты и падения, искали конкурентный
                                 знаменатель цены и качества наших изделий, учились создавать красивые и экологичные
@@ -204,25 +273,25 @@
                             </p>
                         </div>
                         <div class="service-body__box service-body-box">
-                            <h3 class="service-body-box__title">
+                            <h3 class="service-body-box__title" data-aos="fade-down">
                                 Замеры
                             </h3>
                             <div class="service-body-box__inner">
                                 <div class="service-body-box__wrapper">
-                                    <h4 class="service-body-box__subtitle">
+                                    <h4 class="service-body-box__subtitle" data-aos="fade-down">
                                         Заголовок внутри блока
                                     </h4>
-                                    <p class="service-body-box__text">
+                                    <p class="service-body-box__text" data-aos="fade-down">
                                         Компания «Астмебель» -один из крупнейших российских производителей мебели по
                                         индивидуальным эскизам. За это время мы переживали взлеты и падения, искали
                                         конкурентный знаменатель цены и качества наших изделий.
                                     </p>
                                 </div>
                                 <div class="service-body-box__wrapper">
-                                    <h4 class="service-body-box__subtitle">
+                                    <h4 class="service-body-box__subtitle" data-aos="fade-down">
                                         Заголовок внутри блока
                                     </h4>
-                                    <p class="service-body-box__text">
+                                    <p class="service-body-box__text" data-aos="fade-down">
                                         Учились создавать красивые и экологичные предметы мебели, воспитывали команду
                                         квалифицированных специалистов, и, наконец, сегодня мы рады предложить Вам
                                         прекрасные образцы мебели, отвечающие европейским стандартам качества и желаниям
@@ -232,10 +301,10 @@
                             </div>
                         </div>
                         <div class="service-body__box service-body-box">
-                            <h3 class="service-body-box__title">
+                            <h3 class="service-body-box__title" data-aos="fade-down">
                                 Доставка и сборка
                             </h3>
-                            <p class="service-body-box__text">
+                            <p class="service-body-box__text" data-aos="fade-down">
                                 Компания «Астмебель» -один из крупнейших российских производителей мебели по
                                 индивидуальным эскизам. За это время мы переживали взлеты и падения, искали конкурентный
                                 знаменатель цены и качества наших изделий, учились создавать красивые и экологичные
@@ -245,10 +314,10 @@
                             </p>
                         </div>
                         <div class="service-body__box service-body-box">
-                            <h3 class="service-body-box__title">
+                            <h3 class="service-body-box__title" data-aos="fade-down">
                                 Гарантии
                             </h3>
-                            <p class="service-body-box__text">
+                            <p class="service-body-box__text" data-aos="fade-down">
                                 Компания «Астмебель» -один из крупнейших российских производителей мебели по
                                 индивидуальным эскизам. За это время мы переживали взлеты и падения, искали конкурентный
                                 знаменатель цены и качества наших изделий, учились создавать красивые и экологичные
@@ -261,7 +330,7 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer" data-aos="fade-down">
             <div class="container">
                 <div class="footer__inner">
                     <div class="footer__box footer-box">
@@ -445,6 +514,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 

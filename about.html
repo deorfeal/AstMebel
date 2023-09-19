@@ -11,12 +11,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo logo" href="#">
@@ -24,6 +26,73 @@
                 </a>
                 <div class="header__wrapper">
                     <nav class="header__menu menu">
+                        <ul class="menu__list menu-list">
+                            <li class="menu-list__item menu-list__item--catalog">
+                                Каталог
+                                <ul class="menu-list__sublist">
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Кухни и буфеты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Спальни
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Шкафы и гардеробные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Гостиные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Детские
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Диваны
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Комоды и тумбы
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Прихожие
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Двери
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Ванные комнаты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Офис
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Готовое решение
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                         <ul class="menu__list menu-list">
                             <li class="menu-list__item menu-list__item--catalog">
                                 Каталог
@@ -137,7 +206,7 @@
 
     <div class="wrapper">
         <main class="main">
-            <div class="main__breadcrumbs breadcrumbs">
+            <div class="main__breadcrumbs breadcrumbs" data-aos="fade-right">
                 <div class="container">
                     <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__list-item">
@@ -156,23 +225,25 @@
             <section class="main__company company">
                 <div class="container">
                     <div class="company__heading heading heading--centered">
-                        <h1 class="heading__title">
+                        <h1 class="heading__title" data-aos="fade-down">
                             О компании
                         </h1>
-                        <p class="heading__text">
+                        <p class="heading__text" data-aos="fade-down">
                             Фабрика мебели Астмебель
                         </p>
                     </div>
                 </div>
                 <div class="company__inner">
-                    <div class="company__img">
+                    <div class="company__img" data-aos="fade-down">
                         <img class="company__img-image" src="images/company-img.jpg" alt="img">
                     </div>
                     <div class="company__advantages advantages">
                         <div class="advantages__inner">
-                            <div class="advantages__item">
-                                <p class="advantages__item-digits">
-                                    20
+                            <div class="advantages__item" data-aos="fade-right">
+                                <p class="advantages__item-digits " >
+                                    <span class="counter" data-counter="20">
+                                        20
+                                    </span>
                                     <span>
                                         лет
                                     </span>
@@ -181,9 +252,11 @@
                                     Описание компании в цифрах
                                 </p>
                             </div>
-                            <div class="advantages__item">
+                            <div class="advantages__item" data-aos="fade-right">
                                 <p class="advantages__item-digits">
-                                    7
+                                    <span class="counter" data-counter="7">
+                                        7
+                                    </span>
                                     <span>
                                         наград
                                     </span>
@@ -192,9 +265,11 @@
                                     Описание компании в цифрах
                                 </p>
                             </div>
-                            <div class="advantages__item">
+                            <div class="advantages__item" data-aos="fade-right">
                                 <p class="advantages__item-digits">
-                                    1000
+                                    <span class="counter" data-counter="1000">
+                                        1000
+                                    </span>
                                     <span>
                                         клиентов
                                     </span>
@@ -203,9 +278,11 @@
                                     Описание компании в цифрах
                                 </p>
                             </div>
-                            <div class="advantages__item">
+                            <div class="advantages__item" data-aos="fade-right">
                                 <p class="advantages__item-digits">
-                                    20
+                                    <span class="counter" data-counter="20">
+                                        20
+                                    </span>
                                     <span>
                                         лет
                                     </span>
@@ -221,18 +298,18 @@
             <div class="main__blockquote blockquote">
                 <div class="container">
                     <blockquote class="blockquote__box">
-                        <p class="blockquote__box-text">
+                        <p class="blockquote__box-text" data-aos="fade-right">
                             «Уважаемые друзья и коллеги, добро пожаловать в Астмебель, где собрана вся наша любовь
                             к дереву
                             и профессионализм в создании уникальной и качественной мебели!»
                         </p>
-                        <cite class="blockquote__box-author link">
+                        <cite class="blockquote__box-author link" data-aos="fade-left">
                             — Имена, Фамилии, должности
                         </cite>
                     </blockquote>
                 </div>
             </div>
-            <div class="main__video video">
+            <div class="main__video video" data-aos="fade-down">
                 <div class="container">
                     <div class="video__inner">
                         <video class="video__window video-window" src="video/video.mp4" autoplay muted>
@@ -241,31 +318,99 @@
                     </div>
                 </div>
             </div>
-            <section class="main__text-block text-block">
+            <section class="main__view view view--about">
                 <div class="container">
-                    <div class="text-block__inner">
-                        <h2 class="text-block__title">
+                    <div class="view__heading heading">
+                        <h2 class="heading__title" data-aos="fade-right">
                             Наша продукция покоряет вершины рынка на протяжении 20 лет
                         </h2>
-                        <div class="text-block__wrapper">
-                            <p class="text-block__text">
-                                Компания «Астмебель» -один из крупнейших российских производителей мебели по
-                                индивидуальным эскизам. За это время мы переживали взлеты и падения, искали конкурентный
-                                знаменатель цены и качества наших изделий, учились создавать красивые и экологичные
-                                предметы мебели, воспитывали команду квалифицированных специалистов, и, наконец, сегодня
-                                мы рады предложить Вам прекрасные образцы мебели, отвечающие европейским стандартам
-                                качества и желаниям самых требовательных заказчиков
-                            </p>
-                            <p class="text-block__text">
-                                За фантазию в «Астмебель» ответственны дизайнеры. Они ежегодно посещают
-                                специализированные международные выставки. Свежие идеи и модные тенденции известных
-                                всему миру Салонов Германии и Италии не перестают вдохновлять наших творцов на создание
-                                совершенных моделей мебели. Поэтому наши клиенты всегда в тренде. Изготовление изделий
-                                мы доверяем только первоклассному немецкому оборудованию. Этот современный комплекс
-                                машин, управляемый единым программным обеспечением, создает каждую деталь в строгом
-                                соответствии с заданными технологическими параметрами, поэтому мы уверены в качестве
-                                нашей мебели и с легкостью гарантируем его.
-                            </p>
+                        <p class="heading__text" data-aos="fade-down">
+                            Компания «Астмебель» -один из крупнейших российских производителей мебели по индивидуальным
+                            эскизам. За это время мы переживали взлеты и падения, искали конкурентный знаменатель цены и
+                            качества наших изделий, учились создавать красивые и экологичные предметы мебели,
+                            воспитывали команду квалифицированных специалистов, и, наконец, сегодня мы рады предложить
+                            Вам прекрасные образцы мебели, отвечающие европейским стандартам качества и желаниям самых
+                            требовательных заказчиков
+                            <br> <br>
+                            За фантазию в «Астмебель» ответственны дизайнеры. Они ежегодно посещают специализированные
+                            международные выставки. Свежие идеи и модные тенденции известных всему миру Салонов Германии
+                            и Италии не перестают вдохновлять наших творцов на создание совершенных моделей мебели.
+                            Поэтому наши клиенты всегда в тренде. Изготовление изделий мы доверяем только первоклассному
+                            немецкому оборудованию. Этот современный комплекс машин, управляемый единым программным
+                            обеспечением, создает каждую деталь в строгом соответствии с заданными технологическими
+                            параметрами, поэтому мы уверены в качестве нашей мебели и с легкостью гарантируем его.
+                        </p>
+                    </div>
+                </div>
+                <div class="view__inner">
+                    <div class="view__swiper view-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="view-swiper__slide view-swiper-slide swiper-slide">
+                                <h3 class="view-swiper-slide__title" data-aos="fade-right">
+                                    Шоурум <br>
+                                    2-комнатой квартиры
+                                    ЖК Атмосфера
+                                </h3>
+                                <p class="view-swiper-slide__text" data-aos="fade-right">
+                                    Вас приглашаем в Шоурум 1-комнатной квартиры ЖК "Атмосфера"! Здесь наши дизайнеры
+                                    смогут продемонстрировать вам высококачественный дизайн и изысканную мебель от
+                                    фабрики "Астмебель". Иммерсивная атмосфера комфорта и стиля поможет вам ощутить себя
+                                    как дома. Найдите вдохновение для создания идеальной обстановки в своем доме вместе
+                                    с нами!
+                                </p>
+                                <div class="view__buttons">
+                                    <div class="view__buttons-prev swiper-btn">
+                                        <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="view__buttons-next swiper-btn">
+                                        <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="view-swiper__slide view-swiper-slide swiper-slide">
+                                <h3 class="view-swiper-slide__title" data-aos="fade-right">
+                                    Шоурум <br>
+                                    3-комнатой квартиры
+                                    ЖК Другой
+                                </h3>
+                                <p class="view-swiper-slide__text" data-aos="fade-right">
+                                    Вас приглашаем в Шоурум 1-комнатной квартиры ЖК "Атмосфера"! Здесь наши дизайнеры
+                                    смогут продемонстрировать вам высококачественный дизайн и изысканную мебель от
+                                    фабрики "Астмебель". Иммерсивная атмосфера комфорта и стиля поможет вам ощутить себя
+                                    как дома. Найдите вдохновение для создания идеальной обстановки в своем доме вместе
+                                    с нами!
+                                </p>
+                                <div class="view__buttons">
+                                    <div class="view__buttons-prev swiper-btn">
+                                        <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="view__buttons-next swiper-btn">
+                                        <svg width="7" height="13" viewBox="0 0 7 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.5 1L1 6.5L6.5 12" stroke="white" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view__images-swiper view-images-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="view-images-swiper__slide swiper-slide">
+                                <img class="view-images-swiper__slide-img" src="images/view-about-img-1.jpg" alt="img" data-aos="zoom-in-down">
+                            </div>
+                            <div class="view-images-swiper__slide swiper-slide">
+                                <img class="view-images-swiper__slide-img" src="images/view-about-img-2.jpg" alt="img" data-aos="zoom-in-down">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -273,12 +418,12 @@
             <section class="main__text-block text-block text-block--images">
                 <div class="container">
                     <div class="text-block__inner">
-                        <h2 class="text-block__title">
+                        <h2 class="text-block__title" data-aos="fade-right">
                             Технологии
                             нашей компании
                         </h2>
                         <div class="text-block__wrapper">
-                            <p class="text-block__text">
+                            <p class="text-block__text" data-aos="fade-right">
                                 Компания «Астмебель» -один из крупнейших российских производителей мебели по
                                 индивидуальным эскизам. За это время мы переживали взлеты и падения, искали конкурентный
                                 знаменатель цены и качества наших изделий, учились создавать красивые и экологичные
@@ -290,19 +435,19 @@
                     </div>
                     <div class="text-block__images text-block-images">
                         <a class="text-block-images__link" href="#">
-                            <img class="text-block-images__link-img" src="images/catalog-img-1.jpg" alt="img">
+                            <img class="text-block-images__link-img" src="images/catalog-img-1.jpg" alt="img" data-aos="zoom-in-down">
                         </a>
                         <a class="text-block-images__link" href="#">
-                            <img class="text-block-images__link-img" src="images/catalog-img-2.jpg" alt="img">
+                            <img class="text-block-images__link-img" src="images/catalog-img-2.jpg" alt="img" data-aos="zoom-in-down">
                         </a>
                         <a class="text-block-images__link" href="#">
-                            <img class="text-block-images__link-img" src="images/catalog-img-3.jpg" alt="img">
+                            <img class="text-block-images__link-img" src="images/catalog-img-3.jpg" alt="img" data-aos="zoom-in-down">
                         </a>
                     </div>
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer" data-aos="fade-down" >
             <div class="container">
                 <div class="footer__inner">
                     <div class="footer__box footer-box">
@@ -485,6 +630,10 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 

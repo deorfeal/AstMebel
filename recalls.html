@@ -12,12 +12,13 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo logo" href="#">
@@ -25,6 +26,73 @@
                 </a>
                 <div class="header__wrapper">
                     <nav class="header__menu menu">
+                        <ul class="menu__list menu-list">
+                            <li class="menu-list__item menu-list__item--catalog">
+                                Каталог
+                                <ul class="menu-list__sublist">
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Кухни и буфеты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Спальни
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Шкафы и гардеробные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Гостиные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Детские
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Диваны
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Комоды и тумбы
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Прихожие
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Двери
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Ванные комнаты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Офис
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Готовое решение
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                         <ul class="menu__list menu-list">
                             <li class="menu-list__item menu-list__item--catalog">
                                 Каталог
@@ -138,7 +206,7 @@
 
     <div class="wrapper">
         <main class="main">
-            <div class="main__breadcrumbs breadcrumbs">
+            <div class="main__breadcrumbs breadcrumbs" data-aos="fade-right">
                 <div class="container">
                     <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__list-item">
@@ -157,14 +225,13 @@
             <section class="main__recalls recalls">
                 <div class="container">
                     <div class="recalls__heading heading heading--centered">
-                        <h1 class="heading__title">
+                        <h1 class="heading__title" data-aos="fade-down">
                             Отзывы
                         </h1>
                     </div>
                 </div>
                 <div class="recalls__inner">
-                    <div class="recalls__wrapper">
-                        <a class="recalls__video recalls-video" data-fancybox=""
+                        <a class="recalls__video recalls-video" data-aos="fade-down" data-fancybox=""
                             href="https://www.youtube.com/watch?v=QwJwemOX37w">
                             <div class="recalls-video__wrapper">
                                 <img class="recalls-video__img" src="images/recalls-img-video-1.jpg" alt="img">
@@ -185,7 +252,7 @@
                                 </div>
                             </div>
                         </a>
-                        <div class="recalls__item recalls-item">
+                        <div class="recalls__item recalls-item" data-aos="fade-down">
                             <div class="recalls-item__img">
                                 <img class="recalls-item__img-image" src="images/recalls-img-person-1.jpg" alt="img">
                             </div>
@@ -203,7 +270,7 @@
                                 </time>
                             </p>
                         </div>
-                        <div class="recalls__item recalls-item">
+                        <div class="recalls__item recalls-item" data-aos="fade-down">
                             <div class="recalls-item__img">
                                 <img class="recalls-item__img-image" src="images/recalls-img-person-2.jpg" alt="img">
                             </div>
@@ -222,9 +289,7 @@
                                 </time>
                             </p>
                         </div>
-                    </div>
-                    <div class="recalls__wrapper">
-                        <div class="recalls__item recalls-item">
+                        <div class="recalls__item recalls-item" data-aos="fade-down">
                             <div class="recalls-item__img">
                                 <img class="recalls-item__img-image" src="images/recalls-img-person-3.jpg" alt="img">
                             </div>
@@ -243,7 +308,7 @@
                                 </time>
                             </p>
                         </div>
-                        <div class="recalls__item recalls-item">
+                        <div class="recalls__item recalls-item" data-aos="fade-down">
                             <div class="recalls-item__img">
                                 <img class="recalls-item__img-image" src="images/recalls-img-person-4.jpg" alt="img">
                             </div>
@@ -262,7 +327,7 @@
                                 </time>
                             </p>
                         </div>
-                        <a class="recalls__video recalls-video" data-fancybox=""
+                        <a class="recalls__video recalls-video" data-aos="fade-down" data-fancybox=""
                             href="https://www.youtube.com/watch?v=QwJwemOX37w">
                             <div class="recalls-video__wrapper">
                                 <img class="recalls-video__img" src="images/recalls-img-video-2.jpg" alt="img">
@@ -283,9 +348,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
-                    <div class="recalls__wrapper">
-                        <a class="recalls__video recalls-video" data-fancybox=""
+                        <a class="recalls__video recalls-video" data-aos="fade-down" data-fancybox=""
                             href="https://www.youtube.com/watch?v=QwJwemOX37w">
                             <div class="recalls-video__wrapper">
                                 <img class="recalls-video__img" src="images/recalls-img-video-3.jpg" alt="img">
@@ -306,7 +369,7 @@
                                 </div>
                             </div>
                         </a>
-                        <div class="recalls__item recalls-item">
+                        <div class="recalls__item recalls-item" data-aos="fade-down">
                             <p class="recalls-item__text">
                                 Редко оставляю какие-либо отзывы и чаще они отрицательные. Но здесь решила написать,
                                 чтобы хоть как-то выразить свою благодарность компании и ее сотрудникам. Спасибо за
@@ -315,7 +378,7 @@
                                 радуются и просто удобно и комфортно. Еще лет 15 назад сделала заказ. Мне помогли
                                 грамотно оформить мою небольшую комнату. Очень удобно разработали стол, индивидуально.
                                 Мебель до сих пор в идеальном состоянии и смотрится современной. Сейчас заказали мебель
-                                для подросшей дочери. Читать полностью
+                                для подросшей дочери. <a href="#">Читать полностью</a> 
                             </p>
                             <p class="recalls-item__info link">
                                 <span>
@@ -326,7 +389,7 @@
                                 </time>
                             </p>
                         </div>
-                        <div class="recalls__item recalls-item">
+                        <div class="recalls__item recalls-item" data-aos="fade-down">
                             <div class="recalls-item__img">
                                 <img class="recalls-item__img-image" src="images/recalls-img-person-2.jpg" alt="img">
                             </div>
@@ -345,9 +408,7 @@
                                 </time>
                             </p>
                         </div>
-                    </div>
-                    <div class="recalls__wrapper">
-                        <div class="recalls__item recalls-item">
+                        <div class="recalls__item recalls-item" data-aos="fade-down">
                             <div class="recalls-item__img">
                                 <img class="recalls-item__img-image" src="images/recalls-img-person-2.jpg" alt="img">
                             </div>
@@ -366,7 +427,7 @@
                                 </time>
                             </p>
                         </div>
-                        <div class="recalls__item recalls-item">
+                        <div class="recalls__item recalls-item" data-aos="fade-down">
                             <div class="recalls-item__img">
                                 <img class="recalls-item__img-image" src="images/recalls-img-person-1.jpg" alt="img">
                             </div>
@@ -384,7 +445,7 @@
                                 </time>
                             </p>
                         </div>
-                        <div class="recalls__item recalls-item">
+                        <div class="recalls__item recalls-item" data-aos="fade-down">
                             <div class="recalls-item__img">
                                 <img class="recalls-item__img-image" src="images/recalls-img-person-4.jpg" alt="img">
                             </div>
@@ -403,9 +464,8 @@
                                 </time>
                             </p>
                         </div>
-                    </div>
                 </div>
-                <div class="recalls__pagination pagination">
+                <div class="recalls__pagination pagination" data-aos="fade-down">
                     <div class="container">
                         <ul class="pagination__list">
                             <li class="pagination__list-item">
@@ -429,7 +489,7 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer" data-aos="fade-down">
             <div class="container">
                 <div class="footer__inner">
                     <div class="footer__box footer-box">
@@ -613,6 +673,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 

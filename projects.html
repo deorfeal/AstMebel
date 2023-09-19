@@ -11,12 +11,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo logo" href="#">
@@ -24,6 +25,73 @@
                 </a>
                 <div class="header__wrapper">
                     <nav class="header__menu menu">
+                        <ul class="menu__list menu-list">
+                            <li class="menu-list__item menu-list__item--catalog">
+                                Каталог
+                                <ul class="menu-list__sublist">
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Кухни и буфеты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Спальни
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Шкафы и гардеробные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Гостиные
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Детские
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Диваны
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Комоды и тумбы
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Прихожие
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Двери
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Ванные комнаты
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Офис
+                                        </a>
+                                    </li>
+                                    <li class="menu-list__sublist-item">
+                                        <a class="menu-list__sublist-link" href="#">
+                                            Готовое решение
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                         <ul class="menu__list menu-list">
                             <li class="menu-list__item menu-list__item--catalog">
                                 Каталог
@@ -137,7 +205,7 @@
 
     <div class="wrapper">
         <main class="main">
-            <div class="main__breadcrumbs breadcrumbs">
+            <div class="main__breadcrumbs breadcrumbs" data-aos="fade-right">
                 <div class="container">
                     <ul class="breadcrumbs__list">
                         <li class="breadcrumbs__list-item">
@@ -160,10 +228,10 @@
             </div>
             <section class="main__project project">
                 <div class="project__inner">
-                    <div class="project__img">
+                    <div class="project__img" data-aos="zoom-in-down">
                         <img class="project__img-image" src="images/project-img.jpg" alt="img">
                     </div>
-                    <div class="project__body project-body">
+                    <div class="project__body project-body" data-aos="fade-right">
                         <h1 class="project-body__title">
                             Шоу рум 2-комнатой квартиры ЖК Атмосфера
                         </h1>
@@ -188,21 +256,37 @@
                             </span>
                         </p>
                     </div>
+                    <div class="project__body project-body">
+                        <p class="project-body__info">
+                            <span>
+                                г. Москва, ЖК Атмосфера
+                            </span>
+                            <span>
+                                Площадь: 66 м²
+                            </span>
+                            <span>
+                                Год: 2021
+                            </span>
+                            <span>
+                                Автор: Марина Соколюк
+                            </span>
+                        </p>
+                    </div>
                 </div>
             </section>
             <section class="main__about about">
                 <div class="container">
                     <div class="about__heading heading">
-                        <h2 class="heading__title">
+                        <h2 class="heading__title" data-aos="fade-right">
                             О проекте
                         </h2>
-                        <p class="heading__text">
+                        <p class="heading__text" data-aos="fade-right">
                             В гостиной и кухне можно использовать синий цвет в виде декоративных подушек, покрывал или
                             ковровых дорожек. Также можно разместить на столе синие посуду или аксессуары. В спальне
                             можно
                             установить синие настенные светильники или выбрать постельное белье с синим узором.
                         </p>
-                        <p class="heading__text">
+                        <p class="heading__text" data-aos="fade-right">
                             Белые шторы, белые шкафы и белые кухонные фасады смотрятся прекрасно в таком интерьере.
                             Белый
                             цвет также открывает большие возможности для дальнейшего оформления интерьера, например,
@@ -211,172 +295,172 @@
                     </div>
                 </div>
                 <div class="about__inner">
-                    <div class="about__wrapper about__wrapper--right">
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-1.jpg" alt="img">
+                    <div>
+                        <div>
+                            <div>
+                                <img src="images/about-img-1.jpg" alt="img" data-aos="zoom-in-down">
                             </div>
-                            <p class="about-box__text">
+                            <p data-aos="fade-right">
                                 Идеальное жилье: инновационные проекты для комфортной жизни
                             </p>
                         </div>
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-2.jpg" alt="img">
+                        <div>
+                            <div>
+                                <img src="images/about-img-2.jpg" alt="img" data-aos="zoom-in-down">
                             </div>
-                            <p class="about-box__text">
-                                Идеальное жилье: инновационные проекты для комфортной жизни
-                            </p>
-                        </div>
-                    </div>
-                    <div class="about__wrapper about__wrapper--alone">
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-3.jpg" alt="img">
-                            </div>
-                            <p class="about-box__text">
+                            <p data-aos="fade-right">
                                 Идеальное жилье: инновационные проекты для комфортной жизни
                             </p>
                         </div>
                     </div>
-                    <div class="about__wrapper">
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-4.jpg" alt="img">
+                    <div>
+                        <div>
+                            <div>
+                                <img src="images/about-img-3.jpg" alt="img" data-aos="zoom-in-down">
                             </div>
-                            <p class="about-box__text">
-                                Идеальное жилье: инновационные проекты для комфортной жизни
-                            </p>
-                        </div>
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-5.jpg" alt="img">
-                            </div>
-                            <p class="about-box__text">
+                            <p data-aos="fade-right">
                                 Идеальное жилье: инновационные проекты для комфортной жизни
                             </p>
                         </div>
                     </div>
-                    <div class="about__wrapper about__wrapper--right">
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-6.jpg" alt="img">
+                    <div>
+                        <div>
+                            <div>
+                                <img src="images/about-img-4.jpg" alt="img" data-aos="zoom-in-down">
                             </div>
-                            <p class="about-box__text">
+                            <p data-aos="fade-right">
                                 Идеальное жилье: инновационные проекты для комфортной жизни
                             </p>
                         </div>
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-7.jpg" alt="img">
+                        <div>
+                            <div>
+                                <img src="images/about-img-5.jpg" alt="img" data-aos="zoom-in-down">
                             </div>
-                            <p class="about-box__text">
-                                Идеальное жилье: инновационные проекты для комфортной жизни
-                            </p>
-                        </div>
-                    </div>
-                    <div class="about__wrapper about__wrapper--alone">
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-8.jpg" alt="img">
-                            </div>
-                            <p class="about-box__text">
+                            <p data-aos="fade-right">
                                 Идеальное жилье: инновационные проекты для комфортной жизни
                             </p>
                         </div>
                     </div>
-                    <div class="about__wrapper">
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-9.jpg" alt="img">
+                    <div>
+                        <div>
+                            <div>
+                                <img src="images/about-img-6.jpg" alt="img" data-aos="zoom-in-down">
                             </div>
-                            <p class="about-box__text">
+                            <p data-aos="fade-right">
                                 Идеальное жилье: инновационные проекты для комфортной жизни
                             </p>
                         </div>
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-10.jpg" alt="img">
+                        <div>
+                            <div>
+                                <img src="images/about-img-7.jpg" alt="img" data-aos="zoom-in-down">
                             </div>
-                            <p class="about-box__text">
-                                Идеальное жилье: инновационные проекты для комфортной жизни
-                            </p>
-                        </div>
-                    </div>
-                    <div class="about__wrapper about__wrapper--right">
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-11.jpg" alt="img">
-                            </div>
-                            <p class="about-box__text">
-                                Идеальное жилье: инновационные проекты для комфортной жизни
-                            </p>
-                        </div>
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-12.jpg" alt="img">
-                            </div>
-                            <p class="about-box__text">
+                            <p data-aos="fade-right">
                                 Идеальное жилье: инновационные проекты для комфортной жизни
                             </p>
                         </div>
                     </div>
-                    <div class="about__wrapper about__wrapper--alone">
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-13.jpg" alt="img">
+                    <div>
+                        <div>
+                            <div>
+                                <img src="images/about-img-8.jpg" alt="img" data-aos="zoom-in-down">
                             </div>
-                            <p class="about-box__text">
+                            <p data-aos="fade-right">
                                 Идеальное жилье: инновационные проекты для комфортной жизни
                             </p>
                         </div>
                     </div>
-                    <div class="about__wrapper">
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-14.jpg" alt="img">
+                    <div>
+                        <div>
+                            <div>
+                                <img src="images/about-img-9.jpg" alt="img" data-aos="zoom-in-down">
                             </div>
-                            <p class="about-box__text">
+                            <p data-aos="fade-right">
                                 Идеальное жилье: инновационные проекты для комфортной жизни
                             </p>
                         </div>
-                        <div class="about__box about-box">
-                            <div class="about-box__img">
-                                <img class="about-box__img-image" src="images/about-img-15.jpg" alt="img">
+                        <div>
+                            <div>
+                                <img src="images/about-img-10.jpg" alt="img" data-aos="zoom-in-down">
                             </div>
-                            <p class="about-box__text">
+                            <p data-aos="fade-right">
+                                Идеальное жилье: инновационные проекты для комфортной жизни
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <img src="images/about-img-11.jpg" alt="img" data-aos="zoom-in-down">
+                            </div>
+                            <p data-aos="fade-right">
+                                Идеальное жилье: инновационные проекты для комфортной жизни
+                            </p>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="images/about-img-12.jpg" alt="img" data-aos="zoom-in-down">
+                            </div>
+                            <p data-aos="fade-right">
+                                Идеальное жилье: инновационные проекты для комфортной жизни
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <img src="images/about-img-13.jpg" alt="img" data-aos="zoom-in-down">
+                            </div>
+                            <p data-aos="fade-right">
+                                Идеальное жилье: инновационные проекты для комфортной жизни
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <img src="images/about-img-14.jpg" alt="img" data-aos="zoom-in-down">
+                            </div>
+                            <p data-aos="fade-right">
+                                Идеальное жилье: инновационные проекты для комфортной жизни
+                            </p>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="images/about-img-15.jpg" alt="img" data-aos="zoom-in-down">
+                            </div>
+                            <p data-aos="fade-right">
                                 Идеальное жилье: инновационные проекты для комфортной жизни
                             </p>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> 
             <section class="main__order order">
-                <img class="order__bg" src="images/order-bg.jpg" alt="bg">
+                <img class="order__bg" src="images/order-bg.jpg" alt="bg" data-aos="fade-down">
                 <div class="container">
                     <div class="order__inner">
                         <div class="order__heading heading heading--centered">
-                            <h2 class="heading__title">
+                            <h2 class="heading__title" data-aos="fade-down">
                                 Заказать дизайн проект
                             </h2>
-                            <p class="heading__text">
+                            <p class="heading__text" data-aos="fade-down">
                                 Опишите ваши пожелания по вашему проекту и мы свяжемся с вами в ближайшее время
                             </p>
                         </div>
                         <form class="order__form order-form" action="#">
                             <div class="order-form__inner">
-                                <input class="order-form__input" type="text" placeholder="Ваше имя">
-                                <input class="order-form__input" type="text" placeholder="Ваш телефон">
-                                <input class="order-form__input" type="text" placeholder="Email">
+                                <input class="order-form__input" type="text" placeholder="Ваше имя" data-aos="fade-down">
+                                <input class="order-form__input" type="text" placeholder="Ваш телефон" data-aos="fade-down">
+                                <input class="order-form__input" type="text" placeholder="Email" data-aos="fade-down">
                             </div>
-                            <button class="order-form__button link" type="button">
+                            <button class="order-form__button link" type="button" data-aos="fade-up">
                                 отправить заявку
                             </button>
                         </form>
                     </div>
                 </div>
             </section>
-            <section class="main__next-project next-project">
+            <section class="main__next-project next-project" data-aos="fade-down">
                 <div class="container">
                     <div class="next-project__inner">
                         <h3 class="next-project__title">
@@ -388,9 +472,9 @@
                         </a>
                     </div>
                 </div>
-            </section>
+            </section> 
         </main>
-        <footer class="footer">
+        <footer class="footer" data-aos="fade-down">
             <div class="container">
                 <div class="footer__inner">
                     <div class="footer__box footer-box">
@@ -573,6 +657,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 
